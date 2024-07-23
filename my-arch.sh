@@ -18,6 +18,7 @@ yay -S --noconfirm ttf-twemoji
 
 mkdir -p /etc/fonts/conf.d
 curl -L -o /etc/fonts/conf.d/99-emoji.conf https://raw.githubusercontent.com/ErdemGKSL/my-arch/main/assets/99-emoji.conf
+curl -L -o /etc/fonts/local.conf https://raw.githubusercontent.com/ErdemGKSL/my-arch/main/assets/local.conf
 sudo fc-cache -fv
 
 sudo pacman -S --noconfirm steam
