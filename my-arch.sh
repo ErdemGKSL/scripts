@@ -40,3 +40,8 @@ sudo pacman -S --noconfirm --needed zed
 sudo pacman -S --noconfirm --needed jdk-openjdk jdk17-openjdk jdk11-openjdk
 
 yay -S --noconfirm --needed prismlauncher-bin
+
+# For nvidia driver
+# sudo pacman -S --noconfirm --needed lib32-nvidia-utils
+# For amd driver
+# sudo pacman -S --noconfirm --needed lib32-vulkan-radeon lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau vulkan-radeon
