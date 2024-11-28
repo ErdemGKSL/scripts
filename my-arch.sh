@@ -2,8 +2,6 @@
 sudo pacman -S --needed --noconfirm reflector
 sudo reflector --country 'United States,Germany,Turkey' --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
 
-yay -S --needed --noconfirm zen-browser-bin
-
 sudo pacman -S --needed --noconfirm git base-devel
 
 mkdir -p ~/Documents/git
@@ -16,6 +14,7 @@ makepkg -si
 
 cd ~/
 
+yay -S --needed --noconfirm zen-browser-bin
 yay -S --needed --noconfirm ttf-ms-win11-auto
 yay -S --needed --noconfirm all-repository-fonts
 # yay -S --needed --noconfirm ttf-twemoji
