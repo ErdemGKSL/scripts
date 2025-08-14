@@ -29,8 +29,3 @@ elif lspci -nn | grep -E "VGA|3D|Display" | grep -qi "1002:"; then
 else
     echo "No supported GPU detected, skipping..."
 fi
-
-# For nvidia driver
-# sudo pacman -S --noconfirm --needed lib32-nvidia-utils
-# For amd driver
-# sudo pacman -S --noconfirm --needed lib32-vulkan-radeon lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau vulkan-radeon
