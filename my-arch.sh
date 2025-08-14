@@ -13,7 +13,7 @@ cd yay-bin
 makepkg -si
 
 yay -S --needed --noconfirm ttf-ms-win11-auto
-yay -S --needed --noconfirm all-repository-fonts
+sudo pacman -S all-repository-fonts
 
 wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
 
