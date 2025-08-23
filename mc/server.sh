@@ -75,7 +75,7 @@ Wants=network-online.target
 Type=simple
 Environment="PATH=${SESSION_PATH}"
 WorkingDirectory=${ABS_DIR}
-ExecStart="bash -c \"${BIN_PATH} ${CONF_PATH}\""
+ExecStart=${BIN_PATH} ${CONF_PATH}
 Restart=on-failure
 RestartSec=3
 
