@@ -74,7 +74,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 Environment="PATH=${SESSION_PATH}"
-WorkingDirectory="${ABS_DIR}"
+WorkingDirectory=${ABS_DIR}
 ExecStart="bash -c \"${BIN_PATH} ${CONF_PATH}\""
 Restart=on-failure
 RestartSec=3
