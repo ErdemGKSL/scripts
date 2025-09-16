@@ -23,9 +23,9 @@ rename-command FLUSHDB ""
 # rename-command CONFIG ""
 # rename-command DEBUG ""
 # rename-command SHUTDOWN ""
-rename-command SLAVEOF ""
-rename-command SAVE ""
-rename-command BGSAVE ""
+# rename-command SLAVEOF ""
+# rename-command SAVE ""
+# rename-command BGSAVE ""
 
 # Bellek yönetimi
 # maxmemory 512mb
